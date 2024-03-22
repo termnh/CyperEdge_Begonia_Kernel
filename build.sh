@@ -7,7 +7,7 @@
 SECONDS=0 # builtin bash timer
 KERNEL_PATH=$PWD
 AK3_DIR="$HOME/tc/Anykernel"
-DEFCONFIG="begonia_user_defconfig"
+DEFCONFIG="nethunter_defconfig"
 export KBUILD_BUILD_USER=termnh
 export KBUILD_BUILD_HOST=nh
 
