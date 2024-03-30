@@ -15,7 +15,11 @@ export KBUILD_BUILD_HOST=nh
 
 if [[ $1 = "-t" || $1 = "--tools" ]]; then
 
+        echo ''
         echo 'Setting up some important packages'
+        echo ''
+        sleep 1
+
         apt update
         apt upgrade -y
         apt install -y axel bc binutils-aarch64-linux-gnu build-essential ccache curl device-tree-compiler pandoc libncurses5-dev lynx lz4 fakeroot xz-utils whiptail zip unzip pkg-config libtool automake autotools-dev libarchive-tools gcc lld libc6 adb fastboot clang python-is-python3 libssl-dev git -y
