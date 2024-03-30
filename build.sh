@@ -18,6 +18,8 @@ if [[ $1 = "-t" || $1 = "--tools" ]]; then
         echo ''
         echo 'Setting up some important packages'
         echo ''
+        echo 'Please check the build.sh if any error shown'
+        echo ''
         sleep 1
 
         apt update
